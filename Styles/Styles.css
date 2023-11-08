@@ -1,0 +1,513 @@
+/* styles.css */
+
+/* Apply styles to the header */
+.main-header {
+    background-color: hsl(0, 0%, 100%) ; /* Background color for the header */
+    color: #e43c3c; /* Text color */
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0;
+    z-index: 100; /* Ensures it's above other content */
+
+    
+}
+
+
+/* Styling for h elements */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+/* Styling for h3 elements */
+h3 {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-weight: bold; /* You can use 'normal' or other values for font weight */
+    color: #333; /* Change the color to your desired text color */
+    margin-top: 10px; /* Add margin for spacing at the top */
+    margin-right: 20px; /* Adjust the margin value as needed */
+    margin-bottom: 10px; /* Add margin for spacing at the bottom */
+}
+
+
+/* Center-align the logo horizontally */
+.walpaper{
+    position: static;
+    bottom: 10px;
+    left: 20%;
+    right: 0;
+    height: 50cap;
+    z-index: 100; /* Ensures it's above other content */
+}
+.logo {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    left: 0; /* Align to the right */
+    height: 5vh; /* Set the height of the logo container to the viewport height */
+}
+/* Style the logo */
+.logo img {
+    position: absolute; /* Position the icons absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the right */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-left: 30px; /* Adjust the top margin as needed */
+    width: 200px; /* Set the width of the logo */
+    height: 80px; /* Maintain the aspect ratio */
+}
+
+/* Style the navigation links */
+
+.nav-links {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 10px;
+    margin: 0cap;
+    margin-right: 0px;
+}
+
+.nav-links li {
+    display: inline; /* Display list items horizontally */
+    margin: 10px; /* Add margin between list items */
+}
+
+.nav-links a {
+    display: inline; /* Display list items horizontally */
+    margin: 10px; /* Add margin between list items */
+    text-decoration: none; /* Remove underline from links */
+    color: #858181; /* Text color for links */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px; /* Set the font size */
+    font-weight: 50; /* Set the font weight to normal */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+    color: #0a0101; /* Change link color on hover */
+    text-decoration: overline; /* Add overline on hover */
+    text-decoration-color: rgb(226, 43, 43); /* Add  overline colour on hover */
+    transform: translateY(00.3s); /* Move the text up slightly on hover */
+}
+
+.styled-container {
+    background-color: #ffffff; /* Background color */
+    border: 0px solid #ffffff; /* Border with light gray color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    margin: 20px; /* Margin to create space around the container */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Drop shadow */
+    text-align: center; /* Center-align the content within the container */
+}
+
+/* Basic styling for the dropdown menu */
+.dropdown {
+    position: relative;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #0d0d0d;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Style for the search box */
+.search-box {
+    position: absolute; /* Position the box button absolutely */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    margin-top: 54px; /* Adjust the top margin as needed */
+    margin-right: 120px; /* Adjust the top margin as needed */
+    display: flex;
+    align-items: center;
+    outline-color: #0b0b0b;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(56, 47, 47);
+}
+
+/* Style for the store icon */
+.store-icon {
+    position: absolute; /* Position the box button absolutely */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    margin-top: 60px; /* Adjust the top margin as needed */
+    margin-right: 40px; /* Adjust the top margin as needed */
+    font-size: 20px;
+}
+
+.store-icon a {
+    text-decoration: none;
+    color: rgb(76, 74, 74);
+
+}
+.store-icon :hover {
+    color: #f43333; /* Change icon color on hover */
+}
+
+/* Style the social media icons */
+.social-icons {
+    background-color: hsl(0, 0%, 100%); /* Background color for the header */
+    color: #261111; /* Text color */
+    text-align: right;
+    padding: 2px;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    z-index: 100; /* Ensures it's above other content */
+}
+
+.icon {
+    margin-right: 10px; /* Add space between icons */
+    color: #333; /* Icon color */
+    font-size: 20px; /* Icon size */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.icon:hover {
+    color: #f43333; /* Change icon color on hover */
+}
+
+/*About Section Style*/
+/* Style for the about section */
+.about-section {
+    max-width: 1500px;
+    margin: 50px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: hsl(33, 62%, 22%);
+    margin-bottom: 20px;
+}
+
+/* Style the images */
+.imges {
+    position: absolute; /* Position the icons absolutely */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the right */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-left: 30px; /* Adjust the top margin as needed */
+    width: 300px; /* Set the width of the logo */
+    height: 65px; /* Maintain the aspect ratio */
+    animation: moveLogo 2s infinite; /* Apply the 'moveLogo' animation */
+}
+
+/* Stylish body text */
+.stylish-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #080808;
+    text-align: left;
+}
+
+.stylish-text::first-letter {
+    font-size: 36px;
+    color: #f02222;
+    float: rgb(208, 9, 9)
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/*styles of Home section*/
+/* Style for the photo gallery section */
+.photo-gallery {
+    display: inline;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+/* Style for each photo in the gallery */
+.photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.photo:hover {
+    transform: scale(0.7); /* Enlarge the photo on hover */
+}
+
+/* Style for the photo overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(245, 240, 240, 0.5); /* Semi-transparent background */
+    color: #100f0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.photo:hover .overlay {
+    opacity: 0; /* Show the overlay on hover */
+}
+
+/* Style for the photo title */
+.overlay h3 {
+    margin: 0;
+    padding: 30px;
+    font-size: 12px;
+    text-align: left;
+}
+/* footer style*/
+
+footer {
+    background-color: transparent; /* Background color for the header */
+    color: #261111; /* Text color */
+    text-align: left;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    right: 50rem;
+    z-index: 100; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+/* Style the portfolio projects */
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.project img {
+    align-items: center;
+    max-width: 15%;
+}
+
+/* Style the products section */
+.styled-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.product img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    position: inherit;
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Style the shopping cart */
+.cart {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.cart h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+
+/* Style the Contact Us section */
+/* Center the Contact Us section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This sets the section's height to the viewport height for vertical centering */
+    text-align: center;
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Contact information styling */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.contact-item {
+    margin: 0 20px;
+}
+
+.contact-item i {
+    font-size: 2rem;
+    color: #3498db;
+}
+
+.contact-item p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Contact form styling */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 auto; /* Add this line to center horizontally */
+    margin-bottom: 20px;
+}
+.contact-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+
+

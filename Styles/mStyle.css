@@ -1,0 +1,209 @@
+/* Common styles for both mobile and computer screens */
+/* Apply styles to the header */
+.main-header {
+    background-color: hsl(0, 0%, 100%);
+    color: #e43c3c;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+/* Styling for h elements */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling for h3 elements */
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* Center-align the logo horizontally */
+.logo {
+    display: flex;
+    justify-content: center;
+    left: 0;
+    height: 5vh;
+}
+
+/* Style the logo */
+.logo img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 80px;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    margin-right: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 10px;
+}
+
+.nav-links a {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+    color: #858181;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 50;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #0a0101;
+    text-decoration: overline;
+    text-decoration-color: rgb(226, 43, 43);
+    transform: translateY(0.3s);
+}
+
+/* Basic styling for the dropdown menu */
+.dropdown {
+    position: relative;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 260px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: #0d0d0d;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Style for the search box */
+.search-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 54px;
+    margin-right: 120px;
+    display: flex;
+    align-items: center;
+    outline-color: #0b0b0b;
+}
+
+.search-box input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.search-box button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(56, 47, 47);
+}
+
+/* Style for the store icon */
+.store-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 60px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.store-icon a {
+    text-decoration: none;
+    color: rgb(76, 74, 74);
+}
+
+.store-icon :hover {
+    color: #f43333;
+}
+
+/* Style the social media icons */
+.social-icons {
+    background-color: hsl(0, 0%, 100%);
+    color: #261111;
+    text-align: right;
+    padding: 2px;
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.icon {
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.icon:hover {
+    color: #f43333;
+}
+
+/* About Section Style */
+/* Style for the about section */
+.about-section {
+    max-width: 1500px;
+    margin: 50px;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: hsl(33, 62%, 22%);
+    margin-bottom: 20px;
+}
+
+/* Style the images */
+.imges {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 300px;
+   
