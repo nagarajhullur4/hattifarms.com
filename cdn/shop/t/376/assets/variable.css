@@ -1,0 +1,181 @@
+
+
+@font-face {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_n4.1d581f6d4bf1a97f4cbc0b88b933bc136d38d178.woff2?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=564cf78241b5ee4034d661c476e940c9aa33c26b20c44b2f4d8234624a9feca6") format("woff2"),
+         url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_n4.cfce41a967758ce5a9b7d48daeb5b028fd977a9b.woff?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=a0446575111fce1220a4a890117cc87be09b558db9259791b00e419c697a9c63") format("woff");
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_n7.c496e9cf2031deec4c4bca338faa81971c8631d4.woff2?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=2bfd2f999f9bf81849484a9e03c19037091d69c8eb9f64a8dc0b419d201ce214") format("woff2"),
+         url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_n7.78b0223375c94b39ce1af7e09a0225f2bb3d05f7.woff?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=cb23d135afe834ff84a2aebfe9fc4f8cdc4cdaa9a4485107b88080a0260013c1") format("woff");
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+    src: url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_i4.ae02483b3d5e8777d0d4a4ccf396482c364d8955.woff2?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=eeaf0c3cf5a4720613b38847a61e78afff3e71fb4b39a216109543d0337c1ba2") format("woff2"),
+         url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_i4.ba28d1a04ec09448de486d83c63235903dfc0af8.woff?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=d0ffd5b459c6d091af6624d87cf663e1d48bd2d27a241876e374661af17fffe6") format("woff");
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+    src: url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_i7.83866c3eec90071fa974c17980ffb42977f9e667.woff2?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=b47ab83db21368bc0ef48b1c1a063804e15dd18c65b907342bb8d5caf2e54338") format("woff2"),
+         url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_i7.25524241b12d864609c85325613d60efcf1a87e3.woff?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=5a79200b240db8954c07eedd2ff2a316da8be3a719afe10893da10758229da30") format("woff");
+  }
+  
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_n6.7a3c341961dc23aaabcc116124b80f2a7abec1a2.woff2?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=0407bc5d38af4276a53241c52a658cb892706f7eae184c5985a4167bd6e0074e") format("woff2"),
+         url("//www.anveshan.farm/cdn/fonts/montserrat/montserrat_n6.2c97c1a692c63ad09ab0635cb73b1939c5f417c0.woff?h1=YW52ZXNoYW4uZmFybQ&h2=YW52ZXNoYW4tZmFybS5hY2NvdW50Lm15c2hvcGlmeS5jb20&hmac=169d53490403b17ca975ce68c84e2531ec1c2492dbfad730527c915a6cfc9dc1") format("woff");
+  }
+  
+  
+  :root {
+    --font-body-family: Montserrat, sans-serif;
+    --font-body-style: normal;
+    --font-body-weight: 400;
+    --font-body-weight-bold: 700;
+  
+    --font-heading-family: Montserrat, sans-serif;
+    --font-heading-style: normal;
+    --font-heading-weight: 600;
+  
+    --font-body-scale: 1.0;
+    --font-heading-scale: 1.0;
+  
+    --color-base-text: 18, 18, 18;
+    --color-shadow: 18, 18, 18;
+    --color-base-background-1: 255, 255, 255;
+    --color-base-background-2: 5, 160, 129;
+    --color-base-solid-button-labels: 255, 255, 255;
+    --color-base-outline-button-labels: 5, 160, 129;
+    --color-base-accent-1: 5, 160, 129;
+    --color-base-accent-2: 255, 251, 232;
+    --payment-terms-background-color: #ffffff;
+  
+    --gradient-base-background-1: #ffffff;
+    --gradient-base-background-2: #05a081;
+    --gradient-base-accent-1: #05a081;
+    --gradient-base-accent-2: #fffbe8;
+  
+    --media-padding: px;
+    --media-border-opacity: 0.05;
+    --media-border-width: 1px;
+    --media-radius: 0px;
+    --media-shadow-opacity: 0.0;
+    --media-shadow-horizontal-offset: 0px;
+    --media-shadow-vertical-offset: 4px;
+    --media-shadow-blur-radius: 5px;
+    --media-shadow-visible: 0;
+  
+    --page-width: 140rem;
+    --page-width-margin: 0rem;
+  
+    --card-image-padding: 0.0rem;
+    --card-corner-radius: 0.0rem;
+    --card-text-alignment: left;
+    --card-border-width: 0.0rem;
+    --card-border-opacity: 0.1;
+    --card-shadow-opacity: 0.0;
+    --card-shadow-horizontal-offset: 0.0rem;
+    --card-shadow-vertical-offset: 0.4rem;
+    --card-shadow-blur-radius: 0.5rem;
+  
+    --badge-corner-radius: 4.0rem;
+  
+    --popup-border-width: 1px;
+    --popup-border-opacity: 0.1;
+    --popup-corner-radius: 0px;
+    --popup-shadow-opacity: 0.0;
+    --popup-shadow-horizontal-offset: 0px;
+    --popup-shadow-vertical-offset: 4px;
+    --popup-shadow-blur-radius: 5px;
+  
+    --drawer-border-width: 1px;
+    --drawer-border-opacity: 0.1;
+    --drawer-shadow-opacity: 0.0;
+    --drawer-shadow-horizontal-offset: 0px;
+    --drawer-shadow-vertical-offset: 4px;
+    --drawer-shadow-blur-radius: 5px;
+  
+    --spacing-sections-desktop: 0px;
+    --spacing-sections-mobile: 0px;
+  
+    --grid-desktop-vertical-spacing: 20px;
+    --grid-desktop-horizontal-spacing: 20px;
+    --grid-mobile-vertical-spacing: 10px;
+    --grid-mobile-horizontal-spacing: 10px;
+  
+    --text-boxes-border-opacity: 0.1;
+    --text-boxes-border-width: 0px;
+    --text-boxes-radius: 0px;
+    --text-boxes-shadow-opacity: 0.0;
+    --text-boxes-shadow-horizontal-offset: 0px;
+    --text-boxes-shadow-vertical-offset: 4px;
+    --text-boxes-shadow-blur-radius: 5px;
+  
+    --buttons-radius: 40px;
+    --buttons-radius-outset: 41px;
+    --buttons-border-width: 1px;
+    --buttons-border-opacity: 1.0;
+    --buttons-shadow-opacity: 0.0;
+    --buttons-shadow-horizontal-offset: 0px;
+    --buttons-shadow-vertical-offset: 0px;
+    --buttons-shadow-blur-radius: 0px;
+    --buttons-border-offset: 0.3px;
+  
+    --inputs-radius: 0px;
+    --inputs-border-width: 1px;
+    --inputs-border-opacity: 0.55;
+    --inputs-shadow-opacity: 0.0;
+    --inputs-shadow-horizontal-offset: 0px;
+    --inputs-margin-offset: 0px;
+    --inputs-shadow-vertical-offset: 4px;
+    --inputs-shadow-blur-radius: 5px;
+    --inputs-radius-outset: 0px;
+  
+    --variant-pills-radius: 40px;
+    --variant-pills-border-width: 1px;
+    --variant-pills-border-opacity: 0.55;
+    --variant-pills-shadow-opacity: 0.0;
+    --variant-pills-shadow-horizontal-offset: 0px;
+    --variant-pills-shadow-vertical-offset: 4px;
+    --variant-pills-shadow-blur-radius: 5px;
+  }
+  *, *::before, *::after { box-sizing: inherit; }
+  html {
+      box-sizing: border-box;
+      font-size: calc(var(--font-body-scale) * 62.5%);
+      height: 100%;
+  }
+  body {
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      grid-template-columns: 100%;
+      min-height: 100%;
+      margin: 0;
+      font-size: 1.5rem;
+      letter-spacing: 0.06rem;
+      font-family: var(--font-body-family);
+      font-style: var(--font-body-style);
+      font-weight: var(--font-body-weight);
+  }
+  @media screen and (min-width: 750px) {
+      body { font-size: 1.5rem; }
+  }

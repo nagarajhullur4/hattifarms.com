@@ -1,0 +1,45 @@
+.totals {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.totals>* {
+    margin: 0
+}
+
+.totals>h2 {
+    font-size: calc(var(--font-heading-scale) * 1.6rem)
+}
+
+.totals * {
+    line-height: 1
+}
+
+.totals>*+* {
+    margin-left: 2rem
+}
+
+.cart__ctas+.totals {
+    margin-top: 2rem
+}
+
+.totals.hightlight>.totals__subtotal {
+    font-size: 1.8rem
+}
+
+.totals.hightlight>.totals__subtotal-value {
+    font-size: 1.8rem
+}
+
+.totals__subtotal-value.hightlight {
+    color: #26ab90
+}
+
+@media all and (min-width: 750px) {
+    .totals {
+        justify-content: flex-end
+    }
+}
+
+/*# sourceMappingURL=/cdn/shop/t/376/assets/component-totals.css.map?v=8552922928809395531696840668 */
