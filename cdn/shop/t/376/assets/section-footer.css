@@ -66,7 +66,7 @@ address a {
         margin: auto
     }
     .certificate {
-        max-width: 460px;
+        max-width: 172px;
         width: 90%;
         margin: 30px auto 15px
     }
@@ -151,7 +151,7 @@ address a {
         flex: 0 0 220px
     }
     .certificate {
-        flex: 0 0 460px
+        flex: 0 0 170px
     }
     .footer-top {
         justify-content: space-between;
